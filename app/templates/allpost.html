@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pt-3">
+                <div class="card" style="position: relative">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <h2>Quote of the day..</h2>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="quoted-author">{{ quote.author }}</h2>
+                        <p class="quoted-quote">{{ quote.quote }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                {% for post in posts %}
+                <div class="body-content mt-3">
+                    <h4 class="post-title">{{post.post_title}}</h4>
+                    <h5 class="subtitle"> {{post.description}}</h5>
+                    
+                    <h6 class="post-name">Posted by ~ {{post.author.username}}</h6>
+                    <img src="{{ post.author.profile_pic_path }}" alt="">
+                    <p class="date text-muted">Posted on ~ {{post.date.strftime('%Y-%m-%d')}}</p>
+                    <hr>
+                    <a href="{{ url_for('main.view', id=post.id) }}" class="btn btn-sm btn-info"> <i class="fa fa-eye"></i> View more</a>
+                    <a href="{{ url_for('main.view', id=post.id) }}" class="btn btn-sm btn-success"><i class="fa fa-comment"></i> Comment</a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+        {% endblock %}

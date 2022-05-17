@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block styles %}
+    {{ super() }}
+    <link rel="shortcut icon" href="{{ url_for('static', filename='photos/quotes.png') }}">
+    {% endblock %}
+</head>
+<body>
+{% block content %}
+<div class="container-fluid text-light" id="home-banner">
+    <div class="banner-content">
+        <h1>Welcome to blog website</h1>
+        <h5>Sign up, comment on a blog and post a blog</h5>
+    </div>
+</div>
+{% endblock %}
+</body>
+</html>
