@@ -1,0 +1,108 @@
+.navbar-custom{
+    box-shadow: 2px 2px 2px;
+}
+.nav-link-custom{
+    color: black;
+}
+.logo-title{
+    font-style: bold;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+.btn-default{
+    background: rgb(0, 0, 0) !important;
+}
+.profile-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#home-banner{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('https://unsplash.com/photos/laoBHO09sU0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200vh;
+}
+
+.banner-content{
+    text-align: center;
+    padding-top: 0%;
+}
+
+/* .footer{
+    background: darkgrey;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+}
+
+.social-icons {
+    padding-top: 20px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram{
+    border: 1px solid black;
+    border-radius: 50%;
+    background: #000;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+} */
+
+#post-banner{
+    padding-top: 0%;
+}
+
+.post-title{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navbar-brand{
+    font-family: 'Gabriela', serif;
+}
+
+.subtitle{
+    font-family: 'Gabriela', serif;
+}
+
+.logo-title{
+    font-family: 'Gabriela', serif;
+    font-style: italic;
+}
+
+.post-name{
+    font-family: 'Gabriela', serif;
+    font-style: italic;
+}
+
+.date{
+    font-family: 'Gabriela', serif;
+    font-style: italic;
+}
+
+.quoted-author{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.quoted-quote{
+    font-family: 'Gabriela', serif;
+     font-style: italic;
+}
+
+.card-title > h2{
+    font-family: 'Gabriela', serif;
+}
+
+.banner-post-banner{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("https://unsplash.com/photos/laoBHO09sU0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200vh;
+}
