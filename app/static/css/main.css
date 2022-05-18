@@ -2,7 +2,7 @@
     box-shadow: 2px 2px 2px;
 }
 .nav-link-custom{
-    color: black;
+    color: rgb(9, 24, 226);
 }
 .logo-title{
     font-style: bold;
@@ -11,7 +11,7 @@
     font-size: 20px;
 }
 .btn-default{
-    background: rgb(0, 0, 0) !important;
+    background: rgb(9, 24, 226) !important;
 }
 .profile-img{
     width: 60px;
